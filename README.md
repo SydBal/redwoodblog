@@ -121,4 +121,6 @@ The best way to learn Redwood is by going through the comprehensive [tutorial](h
 - [Learn how to contribute](https://redwoodjs.com/docs/contributing)
 
 ## Tutorial Steps
-1. Create HomePage with command `yarn redwood generate page home /`
+0. Run `yarn redwood dev` to start development server.
+1. Create HomePage with command `yarn redwood generate page home /` and add css for minimal styles.
+2. Create AboutPage with command `yarn redwood generate page about` and link to Homepage.
