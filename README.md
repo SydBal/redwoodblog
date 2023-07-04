@@ -127,3 +127,4 @@ The best way to learn Redwood is by going through the comprehensive [tutorial](h
 3. Create layout with command `yarn redwood g layout blog` and pasted duplicated code to enforce DRY practices, improve navigation
 4. Add Post to schema and snapshot with `yarn rw prisma migrate dev`, with `create post`as the name of the migration, viewable `via yarn rw prisma studio`
 5. Scaffold the CRUD operations with `yarn rw g scaffold post`, viewable at `/posts`
+6. Create a cell called `Articles` with the command `yarn rw g cell Articles` and render the response from the query created by the cell (posts needed to be aliased to articles)
