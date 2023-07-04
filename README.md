@@ -124,3 +124,4 @@ The best way to learn Redwood is by going through the comprehensive [tutorial](h
 0. Run `yarn redwood dev` to start development server.
 1. Create HomePage with command `yarn redwood generate page home /` and add css for minimal styles.
 2. Create AboutPage with command `yarn redwood generate page about` and link to Homepage.
+3. Create layout with command `yarn redwood g layout blog` and pasted duplicated code to enforce DRY practices, improve navigation
